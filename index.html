@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="4daysforecast/laptopstyle.css">
+        <link rel="stylesheet" href="4daysforecast/phonestyle.css">
+        <link rel="stylesheet" href="4daysforecast/tabletstyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+
+            <div id="searchdiv">
+                <input id="sb" type="text" placeholder="Search Address" value="USA">
+                <button id="sbt"><img id="si" src="icons/search-icon.png"></button>
+                <button id="infobtn" onclick="info()"><img id="infoimg" src="icons/info-i.png"></button>
+            </div>
+        
+        <p id="errmsg"></p>
+
+        <h1 id="ads"></h1>
+        <h3 id="ads2"></h3>
+        
+        <div id="maindiv">
+
+            <button id="today">
+                <p id="td">Today</p>
+                <p id="tempmax"></p>
+                <p id="tempmin"></p>
+                <div id="precipprobdiv">
+                    <img id="rainper" src="icons/rainper.png">
+                    <p id="precipprob"></p>
+                </div>
+            </button>
+                
+            <button id="tommorrow">
+                <p id="tm">Tommorrow</p>
+                <p id="tempmax2"></p>
+                <p id="tempmin2"></p>
+                <div id="precipprobdiv">
+                    <img id="rainper" src="icons/rainper.png">
+                    <p id="precipprob2"></p>
+                </div>
+            </button>
+                
+            <button id="aftertommorrow">
+                <p id="at">day three</p>
+                <p id="tempmax3"></p>
+                <p id="tempmin3"></p>
+                <div id="precipprobdiv">
+                    <img id="rainper" src="icons/rainper.png">
+                    <p id="precipprob3"></p>
+                </div>
+            </button>
+
+            <button id="dayfour">
+                <p id="df">day four</p>
+                <p id="tempmax4"></p>
+                <p id="tempmin4"></p>
+                <div id="precipprobdiv">
+                    <img id="rainper" src="icons/rainper.png">
+                    <p id="precipprob4"></p>
+                </div>
+            </button>
+
+            <button id="dayfive">
+                <p id="dfv">day five</p>
+                <p id="tempmax5"></p>
+                <p id="tempmin5"></p>
+                <div id="precipprobdiv">
+                    <img id="rainper" src="icons/rainper.png">
+                    <p id="precipprob5"></p>
+                </div>
+            </button>
+
+            <button id="daysix">
+                <p id="ds">day six</p>
+                <p id="tempmax6"></p>
+                <p id="tempmin6"></p>
+                <div id="precipprobdiv">
+                    <img id="rainper" src="icons/rainper.png">
+                    <p id="precipprob6"></p>
+                </div>
+            </button>
+
+            <button id="dayseven">
+                <p id="dsv">day seven</p>
+                <p id="tempmax7"></p>
+                <p id="tempmin7"></p>
+                <div id="precipprobdiv">
+                    <img id="rainper" src="icons/rainper.png">
+                    <p id="precipprob7"></p>
+                </div>
+            </button>
+
+            <button id="dayeight">
+                <p id="de">day eight</p>
+                <p id="tempmax8"></p>
+                <p id="tempmin8"></p>
+                <div id="precipprobdiv">
+                    <img id="rainper" src="icons/rainper.png">
+                    <p id="precipprob8"></p>
+                </div>
+            </button>
+    
+        </div>
+    
+        <script type="module" src="4daysforecast/index.js" charset="UTF-8"></script>
+
+    </body>
+</html>

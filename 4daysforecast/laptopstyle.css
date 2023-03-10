@@ -1,0 +1,145 @@
+@media  (min-width: 1000px){
+    :root {
+        --color1: #AFDCEB;
+        --color2: #CAE9F5;
+        --color3: #F0F8FF;
+        --color4: #ADD8E6;
+        --color5: #86C5D8;
+    }
+    
+    
+    body {
+        background-color: var(--color3);
+        margin: 0;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        user-select: none;
+    }
+    
+    #maindiv {
+        display: grid;
+        align-items: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        position: absolute;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding-bottom: 10px;
+        row-gap: 10px;
+    }
+    
+    #maindiv > button {
+        width: 90%;
+        background-color: var(--color4);
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    
+    #maindiv > button:active {
+        opacity: 0.8;
+    }
+    
+    #imgt {
+        height: 80px;
+        width: auto;
+    }
+    
+    input {
+        background: var(--color3);
+        border: 1px solid;
+        border-radius: 9px;
+        width: 85%;
+        height: 20px;
+        padding-left: 10px;
+        position: relative;
+        bottom: 5px;
+        margin-left: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-left: 25px;
+    }
+    
+    #si {
+        height: 24px;
+        width: auto;
+    }
+    
+    #sbt {
+        background-color: var(--color3);
+        border: none;
+        border-radius: 100px;
+        height: 36px;
+        cursor: pointer;
+        margin: 4px;
+    }
+    
+    #sbt:active {
+        opacity: 0.8; 
+    }
+    
+    #rainper {
+        height: 15px;
+        width: auto;
+        display: inline;
+    }
+    
+    #precipprob, #precipprob2, #precipprob3, #precipprob4, #precipprob5, #precipprob6, #precipprob7, #precipprob8  {
+        display: inline;
+    }
+
+    #precipprobdiv{
+        margin-bottom: 10px;
+    }
+    
+    h1{
+        position: absolute;
+        margin: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 80px;
+    }
+    
+    #searchdiv {
+        background-color: var(--color4);
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }   
+
+    #infoimg {
+        height: 23px;
+        width: auto;
+        background-color: var(--color3);
+        margin-top: 1px;
+    }
+    
+    #infobtn {
+        width: 36px;
+        display: inline;
+        border-radius: 100px;
+        border: none;
+        background-color: var(--color3);
+        height: 36px;
+    }
+   
+    button {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+    }
+    
+    #errmsg {
+        position: absolute;
+        top: 200px;
+        color: red;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h3 {
+        display: none;
+    }
+    
+}
